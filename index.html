@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding4cuts</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame" onmouseover="hideText(1)" onmouseout="showText(1)" onclick="alertText(1)">
+                <span id="desc1" class="photo_description">
+                    나혼자서도
+                </span>
+            </div>
+            <div id="image2" class="photo-frame" onmouseover="hideText(2)" onmouseout="showText(2)" onclick="alertText(2)">
+                <span id="desc2" class="photo_description">
+                    즐겁게
+                </span>
+            </div>
+            <div id="image3" class="photo-frame" onmouseover="hideText(3)" onmouseout="showText(3)" onclick="alertText(3)">
+                <span id="desc3" class="photo_description">
+                    사진을
+                </span>
+            </div>
+            <div class="photo-frame" onmouseover="hideText(4)" onmouseout="showText(4)" onclick="alertText(4)">
+                <iframe class="video" src="https://www.youtube.com/embed/TWz1btekxfs" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title">Happy</p>
+            <p class="f-date">2023.03.29</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
